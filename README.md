@@ -18,12 +18,11 @@ Before running the project, ensure you have the following installed:
 You can install the required libraries using pip:
 
 ```bash
-pip install opencv-python scikit-learn numpy matplotlib
+pip install opencv-python scikit-learn numpy matplotlib '''
 
 
 
-lua
-<repository-directory>/
+'''lua
 
 ├── two_players_top/
 └── two_players_bot/
@@ -34,8 +33,8 @@ Place your images in the data/two_players_top and data/two_players_bot directori
 Usage
 To run the code, execute the execute.sh script:
 
-bash
-Copy code
+'''bash
 chmod +x execute.sh  # Make the script executable (if not already)
 ./execute.sh
+
 This script will process the images, perform feature extraction, and apply KMeans clustering to classify the players, saving the output images in the output directory.
